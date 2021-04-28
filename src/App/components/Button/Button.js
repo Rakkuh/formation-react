@@ -5,21 +5,21 @@ import './Button.css'
 
 const Button = (props) => {
     console.log(props)
-    return <div style = {
+    return <div style={
         {
             ...props.style,
             backgroundColor: props.couleurDeFond,
             fontSize: props.taillePolice + 'px'
         }
     }
-    className = "button-class"
-    onClick = {
-        (event) => {
-            props.onClick(true)
-        }
-    } > {
-        props.label
-    } </div>
+        className="button-class"
+        onClick={
+            (event) => {
+                props.onClick(true)
+            }
+        } > {
+            props.label
+        } </div>
 };
 
 Button.propTypes = {
