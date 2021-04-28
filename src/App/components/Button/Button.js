@@ -17,9 +17,9 @@ const Button = (props) => {
         (event) => {
             props.onClick(true)
         }
-    } > Hello world {
+    } > {
         props.label
-    } < /div>
+    } </div>
 };
 
 Button.propTypes = {

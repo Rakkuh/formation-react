@@ -1,12 +1,13 @@
 
 .button-class {
+    cursor: pointer;
     padding:  10px 8px;
     border-radius: 5px;
     font-weight: 900;
     background-color: green;
     color: white;
     margin: 10px;
-    display: inline;
+    display: inline-flex;
     box-shadow: 3px 3px 5px grey;
     user-select: none;
 }
